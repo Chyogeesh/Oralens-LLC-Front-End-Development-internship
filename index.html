@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare Dashboard</title>
+</head>
+<body>
+  <h1>Healthcare Dashboard</h1>
+  <form action="/submit" method="post" enctype="multipart/form-data">
+    <label>
+      Name:
+      <input type="text" name="name" required>
+    </label><br><br>
+    <label>
+      Age:
+      <input type="number" name="age" required>
+    </label><br><br>
+    <label>
+      Upload File:
+      <input type="file" name="file" required>
+    </label><br><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
