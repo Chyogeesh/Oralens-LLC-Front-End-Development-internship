@@ -50,3 +50,11 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+healthcare-dashboard/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.js
+└── package.json
+
