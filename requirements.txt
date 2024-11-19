@@ -1,0 +1,4 @@
+Flask==2.3.3
+Flask-CORS==3.0.10
+Flask-SQLAlchemy==3.0.4
+Werkzeug==3.0.1
